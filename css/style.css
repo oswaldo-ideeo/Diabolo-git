@@ -1,0 +1,179 @@
+@import url('fonts.css');
+
+/*generales*/
+body{font-family: 'DIN'; font-weight: normal;}
+img{max-width: 100%;}
+.t-center{text-align: center;}
+.t-right{text-align: right;}
+.t-left{text-align: left;}
+.f-right{float: right;}
+.reset{padding-left: 0;padding-right: 0;}
+.show-xs{display: none;}
+
+
+/*colores*/
+.t-diabolo{color: #f42e5b;}
+.b-diabolo{background-color: #f42e5b;}
+.t-white{color: #fff;}
+
+.boton-d, .boton-in{border: none;border-radius: 2px;padding: 0.3rem 1rem;cursor: pointer;}
+.boton-in{border:1px solid #f42e5b; background-color: transparent;}
+
+.back-home{
+	background-image: url('../images/back-home.png');
+	background-size: cover;
+	background-position: center center;
+}
+
+.nav-home{
+	position: ;
+	padding: 1rem 0;
+}
+
+.text-home{
+	margin-top: 100px;
+}
+
+.logo-diabolo{
+
+}
+
+.foot{
+	padding-bottom: 1.4rem;
+}
+
+.foot div{
+	font-size:0.8rem;
+	font-weight: 200;
+}
+
+.foot-link{
+	color: #000;
+	text-decoration: underline;
+}
+
+.crear-d{
+	margin-top: 30px;
+}
+
+.crear-d input, .submit-diablura{
+	float: left;
+	padding: 0.5rem 0.3rem;
+	border-radius: 0;
+	outline: none;
+}
+
+.crear-d input{
+	width: 85%;
+	float: left;
+	cursor: auto;
+}
+
+.submit-diablura{
+	width: 15%;
+	height: 42px;
+}
+
+.space-hide{
+	width: 100%;
+	height: 100px;
+}
+
+.crear-t{
+	font-size: 1.5rem;
+}
+
+
+/**/
+
+.back-diabolo{
+	background-color: #252525;
+	background-image: url('../images/back-diabolo.png');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position:bottom center;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+
+.fashion{
+	font-family: "fashion";
+	font-weight: lighter;
+	color: #fff;
+}
+
+.caja-select{
+	border: 1px solid #f42e5b;
+	background-color: #000;
+	text-align: center;
+	padding: 0.3rem 1rem;
+}
+
+.caja-select select{
+	border: none;
+	background-color: transparent;
+	color: #fff;
+	width: 100%;
+	outline:none;
+	color: rgba(255,255,255,0.6);
+
+}
+
+option{
+	text-align: center;
+}
+
+.separador{
+	height: 50px;
+}
+
+.no-space{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+@media (min-height: 681px) {
+	.footer{
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		left: 0;
+	}
+}
+
+@media (min-width: 960px) {
+	.back-home{
+		min-height: 550px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.back-home{
+		min-height: 700px;
+	}
+}
+
+
+@media (max-width: 959px) {
+	.back-home{
+		min-height: 400px;
+	}
+
+	.text-home{
+		margin-top: 50px;
+	}
+
+	.logo-diabolo{
+		max-width: 200px;
+	}
+}
+
+@media (max-width: 575px) {
+	.show-xs{
+		display: block;
+	}
+
+	.hide-xs{
+		display: none;
+	}
+}

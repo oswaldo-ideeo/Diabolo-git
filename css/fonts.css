@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'DIN';
+  src: url('../fonts/DIN/DINOT.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url('../fonts/DIN/DINOT-bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url('../fonts/DIN/DINOT-Light.ttf');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'DIN';
+  src: url('../fonts/DIN/DINOT-Medium.ttf');
+  font-weight: 200;
+  font-style: normal;
+}
+/*
+
+@font-face
+{
+   font-family: "fashion";
+   src: url("../fonts/ff/fashion_fetish_light.eot");
+   src: url("../fonts/ff/fashion_fetish_light.eot?#diabolo") format("embedded-opentype"),
+        url("../fonts/ff/fashion_fetish_light.woff") format("woff"),
+        url("../fonts/ff/fashion_fetish_light.ttf") format("truetype");
+        /*url("fuentefancy.svg#IDdelafuente") format("svg");
+    font-weight: lighter;
+}
+
+
+
+/*
+@font-face {
+  font-family: 'fashion';
+  src: url('../fonts/fashion_fetish/fashion_fetish_regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fashion';
+  src: url('../fonts/fashion_fetish/fashion_fetish_bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'fashion';
+  src: url('../fonts/fashion_fetish/fashion_fetish_caps.ttf');
+  font-weight: 500;
+  font-style: normal;
+}*/
