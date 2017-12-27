@@ -1,0 +1,42 @@
+.t-diabolo:visited,
+.t-diabolo:hover{
+	text-decoration: none;
+	color: #f42e5b;
+}
+
+a:visited,
+a:hover{
+	text-decoration: none;
+}
+
+.menu-rows{
+	padding-top: 0.8rem;
+}
+
+.carrito{
+	margin-right: 0.6rem;
+}
+
+.foot-gris{
+	color: rgba(255,255,255,0.6);
+}
+
+.menu-perfil{
+	position: absolute;
+	z-index: 9999;
+	background-color: #222222;
+	border: 2px solid #f42e5b;
+	width: 200px;
+	padding: 0.5rem 2rem 0.5rem 0.5rem;
+	right: 15px;
+	margin-top: 10px;
+	display: none;
+}
+
+.perfil-item{
+	margin-bottom: 0.3rem;
+}
+
+#toog-button{
+	cursor: pointer;
+}

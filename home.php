@@ -1,16 +1,10 @@
+<?php $page = 'DIABOLO'; ?>
+<?php $desc = 'Aqui va la descripccion de la pagina'; ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<title>Diabolo</title>
-	<meta viewport>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Ideeo venta de equipos">
-	<meta name="author" content="Ideeo Oswaldo">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/style.css">
+	<?php include 'includes/head.php'; ?>
 </head>
 <body>
 
@@ -23,12 +17,19 @@
 			</nav>
 
 			<div class="row justify-content-center">
-				<div class="col-sm-5 col-6">
+				<div class="col-sm-5 col-5 menu-rows">
 					<div class="row">
 						<div class="col-6">
 							<div class="menu-item t-diabolo">
-								<p class="no-space">HOME</p>
-								<p class="no-space fa fa-caret-up"></p>
+								<a href="home.php" class="t-diabolo">
+									<p class="no-space hide-xs">HOME</p>
+									<div class="t-center show-xs">
+										<span class="fa fa-home"></span>
+									</div>
+									
+									<!--<p class="no-space fa fa-caret-up"></p>-->
+								</a>
+								
 
 							</div>
 						</div>
@@ -36,7 +37,13 @@
 
 						<div class="col-6">
 							<div class="menu-item t-diabolo">
-								CALENDARIO
+								<a href="calendario.php" class="t-diabolo">
+									<p class="no-space hide-xs">CALENDARIO</p>
+									<div class="t-center show-xs">
+										<span class="fa fa-calendar"></span>
+									</div>
+									
+								</a>
 							</div>
 						</div>
 
@@ -49,16 +56,28 @@
 					<img src="images/diabolo-glow.png" alt="">
 				</div>
 
-				<div class="col-sm-5 col-6 t-right">
+				<div class="col-sm-5 col-7 t-right menu-rows">
 					<div class="menu-item t-diabolo">
-						<span class="fa fa-shopping-cart"></span>
-						<a href="" class="t-diabolo	">
+						<a href="" class="t-diabolo"><span class="fa fa-shopping-cart carrito"></span></a>
+						<a  class="t-diabolo" id="toog-button">
 							<span>diablo66</span>
 							<span><img src="images/profile-icon.png" alt=""></span>
 							<span class="fa fa-caret-down"></span>
 						</a>
 					</div>
+					<div class="menu-perfil t-right" id="toog">
+						<div class="perfil-item">
+							<a href="perfil.php" class="foot-gris">MI PERFIL</a>
+						</div>
+
+						<div class="perfil-item">
+							<a href="index.php" class="foot-gris">CERRAR SESIÓN</a>
+						</div>
+					</div>
 				</div>
+				
+				
+
 			</div>
 		</div>
 
@@ -78,6 +97,7 @@
 					<div class="caja-select t-center">
 						<select name="" id="">
 							<option value="0">ELIGE TU CUARTADA</option>
+							<option value="1">CONGRESO</option>
 						</select>
 					</div>
 				</div>
@@ -103,10 +123,11 @@
 		<div class="container footer">
 			<div class="row justify-content-center">
 				<div class="col-12 col-md-10 t-center">
-					<div class="row foot t-white">
-						<div class="col-sm-4 t-center">DIABOLO.COM&copy;</div>
-						<div class="col-sm-4 t-center"><a class="foot-link" style="color: rgba(255,255,255,0.6);" href="">TERMINOS Y CONDICIONES</a></div>
-						<div class="col-sm-4 t-center"><a class="foot-link" style="color: rgba(255,255,255,0.6);" href="">AVISO DE PRIVACIDAD</a></div>
+					<div class="row foot">
+						<div class="col-sm-3 t-center foot-gris">DIABOLO.COM&copy;</div>
+						<div class="col-sm-3 t-center"><a class="foot-link foot-gris" href="terminos.php">TERMINOS Y CONDICIONES</a></div>
+						<div class="col-sm-3 t-center"><a class="foot-link foot-gris" href="privacidad.php">AVISO DE PRIVACIDAD</a></div>
+						<div class="col-sm-3 t-center"><a class="foot-link foot-gris" href="privacidad.php">PREGUNTAS FRECUENTES</a></div>
 					</div>
 
 					
@@ -138,10 +159,13 @@
 <script type="text/javascript" src="js/popper.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-
-<script>
-	
+<script type="text/javascript">
+	$('#toog-button').on('click', function(){
+		$('#toog').slideToggle();
+	})
 </script>
+
+
 
 </body>
 </html>
