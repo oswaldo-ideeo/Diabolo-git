@@ -80,11 +80,72 @@
 							</ul>
 						</div>
 					</div>
-					<div class="select-cuartadas">
-						<label class="switch">
-	  						<input type="checkbox">
-	  						<span class="slider round"></span>
-						</label>
+					<div class="col-md-7 row select-experiencia">
+						<div class="col-md-6">
+							<p style="color:#fff; font-size: 15px;">Activar el guardado de cuartadas</p>
+						</div>
+						<div class="col-sm-5">
+      						<button type="button" class="btn btn-lg btn-toggle active" data-toggle="button" aria-pressed="true" autocomplete="off">
+        						<div class="handle"></div>
+      						</button>
+    					</div>	
+					</div>
+			
+					<div class="listado-experiencias container-fluid">
+						<div class="col-md-4">
+							<p class="tex-color">EXPERIENCIAS ACTUALES &nbsp;&nbsp;&nbsp;<span class="no-space fa  fa-caret-down"></span></p>
+						</div>
+						<div class="row col-md-12">
+							<div class="col-md-4">
+								<p><span>SEMINARIO DE MARKETING EN LA RIVERA MAYA</span></p>
+								<p>02/05/2017</p>
+							</div>
+							<div class="col-md-3">
+								<p>5 ARTÍCULOS</p>
+							</div>
+							<div class="col-md-3">
+								<p>$2,128.00</p>
+							</div>
+							<div class="col-md-2">
+								<input class="boton" type="submit" value="VER DETALLES">
+							</div>
+						</div><br>
+
+						<div class="col-md-4">
+							<p class="tex-color">EXPERIENCIAS CONCLUIDAS &nbsp;&nbsp;&nbsp;<span class="no-space fa  fa-caret-down"></span></p>
+						</div>
+						<div class="row col-md-12">
+							<div class="col-md-4">
+								<p><span>CURSOS FIN DE SEMANA</span></p>
+								<p>02/03/2017</p>
+							</div>
+							<div class="col-md-3">
+								<p>3 ARTÍCULOS</p>
+							</div>
+							<div class="col-md-3">
+								<p>$900.00</p>
+							</div>
+							<div class="col-md-2">
+								<input class="boton" type="submit" value="VER DETALLES">
+							</div>
+						</div><br>
+
+						<div class="row col-md-12">
+							<div class="col-md-4">
+								<p><span>RALLY EDUCATIVO EMPRESARIAL</span></p>
+								<p>02/03/2017</p>
+							</div>
+							<div class="col-md-3">
+								<p>7 ARTÍCULOS</p>
+							</div>
+							<div class="col-md-3">
+								<p>$3,128</p>
+							</div>
+							<div class="col-md-2">
+								<input class="boton" type="submit" value="VER DETALLES">
+							</div>
+						</div><br>
+						
 					</div>
 				</div>
 			</div>
