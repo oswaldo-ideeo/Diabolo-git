@@ -60,31 +60,32 @@
 			</div>
 		</div>
 
-
-		<div class="container row top-esp">
-			<div class="col-md-2">
-				<a href="perfil" class="text-select">Mis datos</a><br>
-				<a class="text-select" href="experiencias"><span>experiencias</span></a>
-			</div>
-
-			<div class="col-md-10 back-negro">
-				<div class="info-perfil row">
-					<div class="col-md-4">
-						<img src="images/profile.png">
-					</div>
-					<div class="col-md-5">
-						<ul>
-							<li><span>diablo666</span></li>
-							<li>James Turner</li>
-							<li>james_turner@hotmail.com</li>
-						</ul>
-					</div>
+		<div class="container">
+			<div class="row top-esp">
+				<div class="col-md-2">
+					<a href="perfil" class="text-select">Mis datos</a><br>
+					<a class="text-select" href="experiencias"><span>experiencias</span></a>
 				</div>
-				<div class="select-cuartadas">
-					<label class="switch">
-  						<input type="checkbox">
-  						<span class="slider round"></span>
-					</label>
+
+				<div class="col-md-10 back-negro">
+					<div class="info-perfil row">
+						<div class="col-md-4">
+							<img src="images/profile.png">
+						</div>
+						<div class="col-md-5">
+							<ul>
+								<li><span>diablo666</span></li>
+								<li>James Turner</li>
+								<li>james_turner@hotmail.com</li>
+							</ul>
+						</div>
+					</div>
+					<div class="select-cuartadas">
+						<label class="switch">
+	  						<input type="checkbox">
+	  						<span class="slider round"></span>
+						</label>
+					</div>
 				</div>
 			</div>
 		</div>
