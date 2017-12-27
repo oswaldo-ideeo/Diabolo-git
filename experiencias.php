@@ -63,8 +63,8 @@
 
 		<div class="container row top-esp">
 			<div class="col-md-2">
-				<a href="perfil" class="text-select"><span>Mis datos</span></a><br>
-				<a class="text-select" href="experiencias">experiencias</a>
+				<a href="perfil" class="text-select">Mis datos</a><br>
+				<a class="text-select" href="experiencias"><span>experiencias</span></a>
 			</div>
 
 			<div class="col-md-10 back-negro">
@@ -80,38 +80,17 @@
 						</ul>
 					</div>
 				</div>
-				<form action="" method="post" class="col-md-12 row">
-					<div class="col-md-6">
-						<div>
-							<p>SOBRENOMBRE</p>
-							<input type="text" name="usuario">
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div>
-							<p>CONTRASEÑA</p>
-							<input type="password" name="usuario">
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div>
-							<p>CORREO ELECTRÓNICO</p>
-							<input type="email" name="mail">
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div>
-							<p>CONFIRMAR CONTRASEÑA</p>
-							<input type="password" name="contraseña2">
-						</div>
-					</div>
-					<div class="boton-form">
-						<input class="boton" type="submit" value="Actualizar">
-					</div>
-				</form>
+				<div class="select-cuartadas">
+					<label class="switch">
+  						<input type="checkbox">
+  						<span class="slider round"></span>
+					</label>
+				</div>
 			</div>
-
 		</div>
+
+
+
 		<div class="container footer">
 			<div class="row justify-content-center">
 				<div class="col-12 col-md-10 t-center">
