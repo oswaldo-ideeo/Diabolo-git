@@ -82,25 +82,25 @@
 					</div>
 					<form action="" method="post" class="col-md-12 row">
 						<div class="col-md-6">
-							<div>
+							<div class="datos-perfil">
 								<p>SOBRENOMBRE</p>
 								<input type="text" name="usuario">
 							</div>
 						</div>
 						<div class="col-md-6">
-							<div>
+							<div class="datos-perfil">
 								<p>CONTRASEÑA</p>
 								<input type="password" name="usuario">
 							</div>
 						</div>
 						<div class="col-md-6">
-							<div>
+							<div class="datos-perfil">
 								<p>CORREO ELECTRÓNICO</p>
 								<input type="email" name="mail">
 							</div>
 						</div>
 						<div class="col-md-6">
-							<div>
+							<div class="datos-perfil">
 								<p>CONFIRMAR CONTRASEÑA</p>
 								<input type="password" name="contraseña2">
 							</div>
