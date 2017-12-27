@@ -21,6 +21,11 @@ a:hover{
 	color: rgba(255,255,255,0.6);
 }
 
+.foot-gris:hover,
+.foot-gris:visited{
+	color: rgba(255,255,255,0.6);
+}
+
 .menu-perfil{
 	position: absolute;
 	z-index: 9999;
@@ -32,6 +37,8 @@ a:hover{
 	margin-top: 10px;
 	display: none;
 }
+
+
 
 .perfil-item{
 	margin-bottom: 0.3rem;
