@@ -242,7 +242,7 @@ option{
 	font-size: 13px;
 	color: #f42e5b;
 }
-.col-md-6 div {
+.col-md-6 .datos-perfil {
 	padding-bottom: 30px;
 }
 .back-negro form input {
