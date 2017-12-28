@@ -54,7 +54,7 @@
 						<label for="pecado">¿DE QUÉ TRATA EL SUPUESTO PECADO?</label>
 						<input type="text" placeholder="DESCRIBE TU PECADO">
 
-						<label for="inicio">DESCRIBE TU PECADO</label>
+						<label for="inicio">FECHA DE LA CUARTADA</label>
 						<input type="date">
 					</div>
 				</div>
