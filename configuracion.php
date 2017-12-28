@@ -45,7 +45,7 @@
 			</div>
 
 
-			<form action="" class="form-config">
+			<form action="articulos.php" class="form-config">
 				<div class="row">
 					<div class="col-md-6">
 						<label for="nombre-cuartada">NOMBRE DE TU CUARTADA</label>
@@ -108,12 +108,16 @@
 							</div>
 						</div>
 
-						<div class="row justify-content-end">
-							<div class="col-sm-4">
-								<button class="boton-d b-diabolo t-white">SIGUIENTE</button>
-							</div>
-						</div>
+											
 
+					</div>
+				</div>
+
+				<div class="row justify-content-end">
+					<div class="col-sm-4 t-right">
+						<div class="separador"></div>
+						<button type="submit" class="boton-d b-diabolo t-white">SIGUIENTE</button>
+						<div class="separador"></div>
 					</div>
 				</div>
 			</form>
