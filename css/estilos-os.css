@@ -76,6 +76,18 @@ a:hover{
 }
 
 
+.form-config label{
+	display: block;
+	color: rgba(255,255,255,0.4);
+}
+
+.form-config input{
+	color: #fff;
+	background-color: #000;
+	border: none;
+	padding: 0.4rem;
+}
+
 
 
 

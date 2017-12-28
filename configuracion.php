@@ -45,7 +45,7 @@
 			</div>
 
 
-			<form action="">
+			<form action="" class="form-config">
 				<div class="row">
 					<div class="col-md-6">
 						<label for="nombre-cuartada">NOMBRE DE TU CUARTADA</label>
@@ -55,7 +55,13 @@
 						<input type="text" placeholder="DESCRIBE TU PECADO">
 
 						<label for="inicio">FECHA DE LA CUARTADA</label>
-						<input type="date">
+						<input type="text" name="from" id="from">
+
+						<label for="fin">FECHA CIERRE DE LA CUARTADA</label>
+						<input type="text" name="to" id="to">
+
+						<label for="indicaciones">INDICACIONES ESPECIALES</label>
+						<input type="text" placeholder="INSTRUCCIONES O ACCIONES QUE DEBEMOS DE CONSIDERAR">
 					</div>
 				</div>
 			</form>
@@ -81,14 +87,48 @@
 
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/popper.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
 
 <script type="text/javascript">
 	$('#toog-button').on('click', function(){
 		$('#toog').slideToggle();
 	})
 </script>
+
+<script>
+  $( function() {
+    var dateFormat = "mm/dd/yy",
+      from = $( "#from" )
+        .datepicker({
+          defaultDate: "+1w",
+          changeMonth: true
+        })
+        .on( "change", function() {
+          to.datepicker( "option", "minDate", getDate( this ) );
+        }),
+      to = $( "#to" ).datepicker({
+        defaultDate: "+1w",
+        changeMonth: true
+      })
+      .on( "change", function() {
+        from.datepicker( "option", "maxDate", getDate( this ) );
+      });
+ 
+    function getDate( element ) {
+      var date;
+      try {
+        date = $.datepicker.parseDate( dateFormat, element.value );
+      } catch( error ) {
+        date = null;
+      }
+ 
+      return date;
+    }
+  } );
+  </script>
 
 
 
