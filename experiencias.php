@@ -85,7 +85,7 @@
 							<p style="color:#fff; font-size: 15px;">Activar el guardado de cuartadas</p>
 						</div>
 						<div class="col-sm-5">
-      						<button type="button" class="btn btn-lg btn-toggle active" data-toggle="button" aria-pressed="true" autocomplete="off">
+      						<button type="button" class="btn btn-lg btn-toggle" data-toggle="button" aria-pressed="true" autocomplete="on">
         						<div class="handle"></div>
       						</button>
     					</div>	
