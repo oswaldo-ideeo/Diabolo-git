@@ -707,6 +707,51 @@ input:focus{
 }
 
 
+/* //////////////////// terminosycondiciones //////////////// */
+
+.terminosycondiciones {
+    margin-top: 40px; 
+    padding: 30px 30px 20px 30px;
+    background: #000;
+    margin-bottom: 50px;
+} 
+.terminosycondiciones p {
+  color: #fff;
+  font-size: 12px;
+  text-align: justify;
+}
+.aviso {
+    margin-top: 40px; 
+    padding: 30px 30px 20px 30px;
+    background: #000;
+    margin-bottom: 50px;
+} 
+.aviso p {
+  color: #fff;
+  font-size: 12px;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
