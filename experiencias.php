@@ -26,7 +26,7 @@
 						<div class="col-md-5">
 							<ul>
 								<li><span>diablo666</span></li>
-								<li>James Turner</li>
+								
 								<li>james_turner@hotmail.com</li>
 							</ul>
 						</div>
@@ -41,8 +41,17 @@
       						</button>
     					</div>	
 					</div>
-			
+					
+					<div class="row justify-content-center mensaje-experiencias">
+						<div class="col-sm-6 t-center">
+							<h2 class="t-diabolo">NO ESTÁ ACTIVADA LA OPCIÓN DE GUARDAR CUARTADAS</h2>
+						</div>
+					</div>
+
 					<div class="listado-experiencias container-fluid">
+						
+
+
 						<div class="col-md-4">
 							<p class="tex-color">EXPERIENCIAS ACTUALES &nbsp;&nbsp;&nbsp;<span class="no-space fa  fa-caret-down"></span></p>
 						</div>
@@ -137,8 +146,10 @@
 
 	if (encendido == 'off') {
 		$('.listado-experiencias').hide();
+		$('.mensaje-experiencias').show();
 	} else{
 		$('listado-experiencias').show();
+		$('.mensaje-experiencias').hide();
 	}
 
 
@@ -146,8 +157,10 @@
 		var apagado = $('#onoff').attr('aria-pressed');
 		if (apagado == 'true') {
 			$('.listado-experiencias').slideUp();
+			$('.mensaje-experiencias').show();
 		} else if (apagado == 'false') {
 			$('.listado-experiencias').slideDown();
+			$('.mensaje-experiencias').hide();
 		}
 	})
 
