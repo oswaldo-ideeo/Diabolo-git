@@ -79,6 +79,7 @@ a:hover{
 .form-config label{
 	display: block;
 	color: rgba(255,255,255,0.4);
+	margin-top: 1rem;
 }
 
 .form-config input{
@@ -86,9 +87,51 @@ a:hover{
 	background-color: #000;
 	border: none;
 	padding: 0.4rem;
+	width: 100%;
+}
+
+.date-item{
+	width: 250px;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.gris40{
+	color: rgba(255,255,255,0.4);
+	margin-top: 1rem;
+}
+
+.cart{
+	border: none;
+	border-radius: 0;
+	padding: 0.5rem 2rem;
+}
+
+.cart .fa-plus{
+	font-size: 10px;
+}
+
+.art-item{
+	background-color: #000;
+	padding: 5px;
+}
+
+.art-item p{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.art-item img{
+	width: 1000%;
 }
 
 
+button{cursor: pointer;}
 
+@media (max-width: 600px) and (min-height: 681px) {
+	.footer{
+		position: static;
+	}
+}
 
 
