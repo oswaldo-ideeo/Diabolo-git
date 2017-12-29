@@ -1,7 +1,7 @@
 <div class="container">
 			<nav class="nav-home row">
 				<div class="col-12 t-center show-xs">
-					<img src="images/diabolo-glow.png" alt="">
+					<a href="home.php"><img src="images/diabolo-glow.png" alt=""></a>
 				</div>				
 			</nav>
 
@@ -42,7 +42,7 @@
 
 				
 				<div class="col-sm-2 t-center reset hide-xs">
-					<img src="images/diabolo-glow.png" alt="">
+					<a href="home.php"><img src="images/diabolo-glow.png" alt=""></a>
 				</div>
 
 				<div class="col-sm-5 col-7 t-right menu-rows">

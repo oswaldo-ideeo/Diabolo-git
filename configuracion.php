@@ -45,7 +45,7 @@
 			</div>
 
 
-			<form action="" class="form-config">
+			<form action="articulos.php" class="form-config">
 				<div class="row">
 					<div class="col-md-6">
 						<label for="nombre-cuartada">NOMBRE DE TU CUARTADA</label>
@@ -53,15 +53,71 @@
 
 						<label for="pecado">¿DE QUÉ TRATA EL SUPUESTO PECADO?</label>
 						<input type="text" placeholder="DESCRIBE TU PECADO">
+						
+						<div class="date-item">
+							<label class="label-date" for="inicio">FECHA DE LA CUARTADA</label>
+							<input class="input-date" type="text" name="from" id="from">
+						</div>
 
-						<label for="inicio">FECHA DE LA CUARTADA</label>
-						<input type="text" name="from" id="from">
-
-						<label for="fin">FECHA CIERRE DE LA CUARTADA</label>
-						<input type="text" name="to" id="to">
-
+						<div class="date-item">
+							<label class="label-date" for="fin">FECHA CIERRE DE LA CUARTADA</label>
+							<input class="input-date" type="text" name="to" id="to">
+						</div>
+						
 						<label for="indicaciones">INDICACIONES ESPECIALES</label>
 						<input type="text" placeholder="INSTRUCCIONES O ACCIONES QUE DEBEMOS DE CONSIDERAR">
+					</div>
+
+
+					<div class="col-md-6">
+						<p class="gris40">ARTÍCULOS RECOMENDADOS</p>
+
+						<div class="row">
+							<div class="col-md-3 col-sm-4" style="padding-right: 0;">
+								<div class="art-item">
+									<img src="images/articulo-llavero.png" alt="llavero promocional">
+									<p class="t-white">LLAVERO PROMOCIONAL</p>
+									<p class="gris40">X1 PZA</p>
+									<button type="button" class="cart b-diabolo"><span class="t-white fa fa-plus"></span><span class="t-white fa fa-shopping-cart"></span></button>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-4" style="padding-right: 0;">
+								<div class="art-item">
+									<img src="images/articulo-gafete.png" alt="gafete del evento">
+									<p class="t-white">GAFETE DEL EVENTO</p>
+									<p class="gris40">X1 PZA</p>
+									<button type="button" class="cart b-diabolo"><span class="t-white fa fa-plus"></span><span class="t-white fa fa-shopping-cart"></span></button>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-4" style="padding-right: 0;">
+								<div class="art-item">
+									<img src="images/articulo-diploma.png" alt="dimploma del evento">
+									<p class="t-white">DIPLOMA DEL EVENTO</p>
+									<p class="gris40">X1 PZA</p>
+									<button type="button" class="cart b-diabolo"><span class="t-white fa fa-plus"></span><span class="t-white fa fa-shopping-cart"></span></button>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-4">
+								<a href="" class="t-white">
+									<div class="separador"></div>
+									<span class="t-white">Ver más </span><span class="fa fa-arrow-circle-right"></span>
+								</a>
+							</div>
+						</div>
+
+											
+
+					</div>
+				</div>
+
+				<div class="row justify-content-end">
+					<div class="col-sm-4 t-right">
+						<div class="separador"></div>
+						<button type="submit" class="boton-d b-diabolo t-white">SIGUIENTE</button>
+						<div class="separador"></div>
 					</div>
 				</div>
 			</form>

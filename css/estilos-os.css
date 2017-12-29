@@ -79,6 +79,7 @@ a:hover{
 .form-config label{
 	display: block;
 	color: rgba(255,255,255,0.4);
+	margin-top: 1rem;
 }
 
 .form-config input{
@@ -86,9 +87,113 @@ a:hover{
 	background-color: #000;
 	border: none;
 	padding: 0.4rem;
+	width: 100%;
 }
 
+.date-item{
+	width: 250px;
+	display: inline-block;
+	margin-right: 15px;
+}
 
+.gris40{
+	color: rgba(255,255,255,0.4);
+	margin-top: 1rem;
+}
 
+.cart{
+	border: none;
+	border-radius: 0;
+	padding: 0.5rem 2rem;
+}
+
+.cart .fa-plus{
+	font-size: 10px;
+}
+
+.art-item{
+	background-color: #000;
+	padding: 5px;
+}
+
+.art-item p{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.art-item img{
+	width: 1000%;
+}
+
+button{cursor: pointer;}
+
+.articulo-card{
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+.carrito-2{
+	background-color: transparent;
+	border: 1px solid #ccc;
+	border-radius: 3px 0 0 3px;
+	min-height: 30px;
+	padding: 0 1rem;
+}
+
+.carrito-2 span{
+	margin-right: 8px;
+}
+
+.precio{
+	border: 1px solid #ccc;
+	border-radius: 0 3px 3px 0;
+	background-color: transparent;
+	margin-left: -5px;
+	cursor: default;
+	font-size: 14px;
+	min-height: 30px;
+	padding: 0 0.7rem;
+}
+
+.favorito{
+	margin-bottom: 1rem;
+}
+
+.articulo-name{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.articulo-desc{
+	color: #9da5ab;
+	font-size: 15px;
+}
+
+.star-in{
+	color: #fff;
+	-webkit-text-stroke: 1px black;
+}
+
+.star-out{
+	color: #ffcc00;
+	-webkit-text-stroke: 0px black;
+}
+
+.heart-in{
+	color: #fff;
+	-webkit-text-stroke: 1px black;
+}
+
+.heart-out{
+	color: #f42e5b;
+	-webkit-text-stroke: 0px black;
+}
+
+@media (max-width: 600px) and (min-height: 681px) {
+	.footer{
+		position: static;
+	}
+}
 
 
