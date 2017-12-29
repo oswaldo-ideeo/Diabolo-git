@@ -82,6 +82,8 @@ a:hover{
 	margin-top: 1rem;
 }
 
+
+
 .form-config input{
 	color: #fff;
 	background-color: #000;
@@ -190,9 +192,82 @@ button{cursor: pointer;}
 	-webkit-text-stroke: 0px black;
 }
 
+.pago-title{
+	padding-bottom: 2rem;
+	border-bottom: 1px solid black;
+}
+
+.tarjeta{
+	color: white;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 0.8rem;
+}
+
+.card-number{
+	padding-left: 3rem!important;
+}
+
+.selec-tarjeta{
+	max-width: 200px;
+	display: inline-block;
+	border:none;
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+	padding: 0.4rem;
+	width:49%;
+}
+
+.selec-tarjeta select{
+	border: none;
+	background-color: transparent;
+	color: #fff;
+	width: 100%;
+	outline:none;
+	color: rgba(255,255,255,0.4);
+}
+
+
+.validacion-item{
+	display: inline-block;
+}
+
+.v-primera{
+	width: 60%;
+}
+
+.question{
+	position: absolute;
+	margin-left: 170px;
+	color: rgba(255,255,255,0.4);
+	margin-top: -27px;
+	font-size: 16px;
+}
+
+.total{
+	font-size: 1.5rem;
+}
+
+.tick h2{
+	color: #bbbbbb;
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+
+.tick span{
+	font-size: 2rem;
+}
+
 @media (max-width: 600px) and (min-height: 681px) {
 	.footer{
 		position: static;
+	}
+}
+
+@media (max-width: 600px) {
+	.v-primera{
+
 	}
 }
 
