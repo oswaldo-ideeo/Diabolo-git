@@ -128,6 +128,12 @@ a:hover{
 
 button{cursor: pointer;}
 
+.articulo-card{
+	background-color: #fff;
+}
+
+
+
 @media (max-width: 600px) and (min-height: 681px) {
 	.footer{
 		position: static;
