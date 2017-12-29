@@ -46,7 +46,7 @@
 
 
 			<form action="resumen.php" class="form-config">
-				<div class="row">
+				<div class="row" style="margin-bottom: 1rem;">
 					<div class="col-12">
 						<div class="foot-gris">
 							SELECCIONA LOS ARTÍCULOS QUE NECESITAS PARA QUE TU PECADO SEA PERFECTO.
@@ -56,18 +56,18 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="articulo-card">
-							<div class="row justify-content-end">
+							<div class="row justify-content-end favorito">
 								<div class="col-6 t-right">
-									<span class="fa fa-star-o"></span>
-									<span class="fa fa-heart-o"></span>
+									<span class="fa fa-star star-in" id="star"></span>
+									<span class="fa fa-heart hearth-in" id="hearth"></span>
 								</div>
 							</div>
 
 							<div class="row">
 								<div class="col-md-8">
-									<h6>Diploma de evento</h6>
+									<h6 class="articulo-name">Diploma de evento</h6>
 
-									<p>Impresión a fullcolor, personalizado totalmente con los datos del evento seleccionado..</p>
+									<p class="articulo-desc">Impresión a fullcolor, personalizado totalmente con los datos del evento seleccionado..</p>
 								</div>
 
 								<div class="col-md-4">
@@ -76,7 +76,10 @@
 							</div>
 
 							<div class="row">
-								.col
+								<div class="col-12">
+									<button type="button" class="t-diabolo carrito-2"><span class="fa fa-shopping-cart"></span>Agregar al carrito</button>
+									<button class="precio" disabled="true">$200</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -128,7 +131,38 @@
 	})
 </script>
 
+<script>
 
+
+
+	
+var fav = $('#star').attr('class');
+	$('#star').on('click', function(){
+		
+		switch (fav = '') {
+			case 'star-in':
+				$(this).switchClass('star-in', 'star-out', 1000, 'easeOutBounce');
+				break;
+			case 'star-out':
+				$(this).switchClass('star-out', 'star-in', 1000, 'easeOutBounce');
+
+
+		}
+
+
+		/*if (fav = 'star-in') {
+			$(this).switchClass('star-in', 'star-out', 1000, 'easeOutBounce');
+		} else if (fav = 'star-out') {
+			$(this).switchClass('star-out', 'star-in', 1000, 'easeOutBounce');
+		}*/
+
+	})
+
+
+
+
+	
+</script>
 
 
 </body>
