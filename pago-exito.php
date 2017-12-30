@@ -15,28 +15,28 @@
 
 
 		<div class="container">
-			<div class="row separador"></div>
+			<div class="row separador sp-min"></div>
 		</div>
 		<div class="container back-sec">
 			<div class="row nav-cuartada" >
-				
+					<button class="mas-menu show-xs"><span class="fa fa-bars t-diabolo" id="bars-menu"></span></button>
 					<div class="col-20">
-						<a href="" class="foot-gris">CONFIGURAR</a>
+						<a href="configuracion.php" class="foot-gris">CONFIGURAR</a>
 					</div>
 
 					<div class="col-20">
-						<a href="" class="foot-gris">MIS ARTÍCULOS</a>
+						<a href="articulos.php" class="foot-gris">MIS ARTÍCULOS</a>
 					</div>
 
 					<div class="col-20">
-						<a href="" class="foot-gris">RESUMEN</a>
+						<a href="resumen.php" class="foot-gris">RESUMEN</a>
 					</div>
 
 					<div class="col-20">
-						<a href="" class="foot-gris">DATOS DE ENVÍO</a>
+						<a href="envio.php" class="foot-gris">DATOS DE ENVÍO</a>
 					</div>
 
-					<div class="col-20">
+					<div class="col-20 active-col">
 						<a href="pago.php" class="t-diabolo"><b>PAGO</b></a>
 					</div>
 
@@ -48,7 +48,7 @@
 		
 			<div class="row">
 				<div class="col-12">
-					<p class="t-white pago-title"></p>
+					<p style="border-bottom: 1px solid black;"></p>
 				</div>
 			</div>
 			
@@ -108,7 +108,11 @@
 	})
 </script>
 
-
+<script type="text/javascript">
+	$('#bars-menu').on('click', function(){
+		$('.col-20').slideToggle();
+	})
+</script>
 
 
 

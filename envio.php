@@ -17,25 +17,25 @@
 		</div>
 		<div class="container back-sec">
 			<div class="row nav-cuartada" >
-				
+					<button class="mas-menu show-xs"><span class="fa fa-bars t-diabolo" id="bars-menu"></span></button>
 					<div class="col-20">
-						<a href="" class="foot-gris"><b>CONFIGURAR</b></a>
+						<a href="configuracion.php" class="foot-gris"><b>CONFIGURAR</b></a>
 					</div>
 
 					<div class="col-20">
-						<a href="" class="foot-gris">MIS ARTÍCULOS</a>
+						<a href="articulos.php" class="foot-gris">MIS ARTÍCULOS</a>
 					</div>
 
 					<div class="col-20">
-						<a href="" class="foot-gris">RESUMEN</a>
+						<a href="resumen.php" class="foot-gris">RESUMEN</a>
+					</div>
+
+					<div class="col-20 active-col">
+						<a href="envio.php" class="t-diabolo"><b>DATOS DE ENVÍO</b></a>
 					</div>
 
 					<div class="col-20">
-						<a href="" class="t-diabolo">DATOS DE ENVÍO</a>
-					</div>
-
-					<div class="col-20">
-						<a href="" class="foot-gris">PAGO</a>
+						<a href="pago.php" class="foot-gris">PAGO</a>
 					</div> 
 			</div>
 			<div class="envio">
@@ -113,3 +113,30 @@
 		<?php include 'includes/footer.php'; ?>
 
 	</div>
+
+
+
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/popper.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript">
+	$('#toog-button').on('click', function(){
+		$('#toog').slideToggle();
+	})
+</script>
+
+<script type="text/javascript">
+	$('#bars-menu').on('click', function(){
+		$('.col-20').slideToggle();
+	})
+</script>
+
+
+
+</body>
+</html>

@@ -60,8 +60,8 @@
 			<div class="col-12 col-md-10 t-center">
 				<div class="row foot">
 					<div class="col-sm-4 t-center">DIABOLO.COM&copy;</div>
-					<div class="col-sm-4 t-center"><a class="foot-link" href="">TERMINOS Y CONDICIONES</a></div>
-					<div class="col-sm-4 t-center"><a class="foot-link" href="">AVISO DE PRIVACIDAD</a></div>
+					<div class="col-sm-4 t-center"><a class="foot-link" href="terminos.php" target="_blank">TERMINOS Y CONDICIONES</a></div>
+					<div class="col-sm-4 t-center"><a class="foot-link" href="privacidad.php" target="_blank">AVISO DE PRIVACIDAD</a></div>
 				</div>
 
 				

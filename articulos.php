@@ -19,25 +19,25 @@
 		</div>
 		<div class="container back-sec">
 			<div class="row nav-cuartada" >
-				
+					<button class="mas-menu show-xs"><span class="fa fa-bars t-diabolo" id="bars-menu"></span></button>
 					<div class="col-20">
-						<a href="" class="foot-gris">CONFIGURAR</a>
+						<a href="configuracion.php" class="foot-gris">CONFIGURAR</a>
+					</div>
+
+					<div class="col-20 active-col">
+						<a href="articulos.php" class="t-diabolo"><b>MIS ARTÍCULOS</b></a>
 					</div>
 
 					<div class="col-20">
-						<a href="" class="t-diabolo"><b>MIS ARTÍCULOS</b></a>
+						<a href="resumen.php" class="foot-gris">RESUMEN</a>
 					</div>
 
 					<div class="col-20">
-						<a href="" class="foot-gris">RESUMEN</a>
+						<a href="envio.php" class="foot-gris">DATOS DE ENVÍO</a>
 					</div>
 
 					<div class="col-20">
-						<a href="" class="foot-gris">DATOS DE ENVÍO</a>
-					</div>
-
-					<div class="col-20">
-						<a href="" class="foot-gris">PAGO</a>
+						<a href="pago.php" class="foot-gris">PAGO</a>
 					</div>
 
 				
@@ -76,7 +76,38 @@
 							</div>
 
 							<div class="row">
-								<div class="col-12">
+								<div class="col-12" style="margin-top: 15px;">
+									<button type="button" class="t-diabolo carrito-2"><span class="fa fa-shopping-cart"></span>Agregar al carrito</button>
+									<button class="precio" disabled="true">$200</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-md-6">
+						<div class="articulo-card">
+							<div class="row justify-content-end favorito">
+								<div class="col-6 t-right">
+									<span class="fa fa-star star-in" id="star"></span>
+									<span class="fa fa-heart hearth-in" id="hearth"></span>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-8">
+									<h6 class="articulo-name">Diploma de evento</h6>
+
+									<p class="articulo-desc">Impresión a fullcolor, personalizado totalmente con los datos del evento seleccionado..</p>
+								</div>
+
+								<div class="col-md-4">
+									<img src="images/articulo-diploma.png" alt="">
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-12" style="margin-top: 15px;">
 									<button type="button" class="t-diabolo carrito-2"><span class="fa fa-shopping-cart"></span>Agregar al carrito</button>
 									<button class="precio" disabled="true">$200</button>
 								</div>
@@ -131,32 +162,33 @@
 	})
 </script>
 
+<script type="text/javascript">
+	$('#bars-menu').on('click', function(){
+		$('.col-20').slideToggle();
+	})
+</script>
+
 <script>
 
 
 
 	
 var fav = $('#star').attr('class');
+
+
 	$('#star').on('click', function(){
 		
-		switch (fav = '') {
-			case 'star-in':
-				$(this).switchClass('star-in', 'star-out', 1000, 'easeOutBounce');
-				break;
-			case 'star-out':
-				$(this).switchClass('star-out', 'star-in', 1000, 'easeOutBounce');
+		if (fav = 'star-in') {
+			$(this).switchClass('star-in', 'star-out', 1000, 'easeOutBounce');
+		}; 
 
-
+		if (fav = 'star-out') {
+			$(this).switchClass('star-out', 'star-in', 1000, 'easeOutBounce');
 		}
 
+	});
 
-		/*if (fav = 'star-in') {
-			$(this).switchClass('star-in', 'star-out', 1000, 'easeOutBounce');
-		} else if (fav = 'star-out') {
-			$(this).switchClass('star-out', 'star-in', 1000, 'easeOutBounce');
-		}*/
 
-	})
 
 
 

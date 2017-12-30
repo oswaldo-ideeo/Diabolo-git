@@ -106,8 +106,10 @@
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 
-<script>
-	
+<script type="text/javascript">
+	$('#toog-button').on('click', function(){
+		$('#toog').slideToggle();
+	})
 </script>
 
 </body>

@@ -19,25 +19,25 @@
 		</div>
 		<div class="container back-sec">
 			<div class="row nav-cuartada" >
-				
-					<div class="col-20">
-						<a href="" class="t-diabolo"><b>CONFIGURAR</b></a>
+					<button class="mas-menu show-xs"><span class="fa fa-bars t-diabolo" id="bars-menu"></span></button>
+					<div class="col-20 active-col">
+						<a href="configuracion.php" class="t-diabolo"><b>CONFIGURAR</b></a>
 					</div>
 
 					<div class="col-20">
-						<a href="" class="foot-gris">MIS ARTÍCULOS</a>
+						<a href="articulos.php" class="foot-gris">MIS ARTÍCULOS</a>
 					</div>
 
 					<div class="col-20">
-						<a href="" class="foot-gris">RESUMEN</a>
+						<a href="resumen.php" class="foot-gris">RESUMEN</a>
 					</div>
 
 					<div class="col-20">
-						<a href="" class="foot-gris">DATOS DE ENVÍO</a>
+						<a href="envio.php" class="foot-gris">DATOS DE ENVÍO</a>
 					</div>
 
 					<div class="col-20">
-						<a href="" class="foot-gris">PAGO</a>
+						<a href="pago.php" class="foot-gris">PAGO</a>
 					</div>
 
 				
@@ -151,6 +151,12 @@
 <script type="text/javascript">
 	$('#toog-button').on('click', function(){
 		$('#toog').slideToggle();
+	})
+</script>
+
+<script type="text/javascript">
+	$('#bars-menu').on('click', function(){
+		$('.col-20').slideToggle();
 	})
 </script>
 
