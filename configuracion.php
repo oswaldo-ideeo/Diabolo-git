@@ -47,7 +47,7 @@
 
 			<form action="articulos.php" class="form-config">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-lg-6">
 						<label for="nombre-cuartada">NOMBRE DE TU CUARTADA</label>
 						<input type="text" value="RALLY DE NEGOCIOS INTERNACIONALES - NAYARIT 2017">
 
@@ -69,11 +69,11 @@
 					</div>
 
 
-					<div class="col-md-6">
+					<div class="col-lg-6">
 						<p class="gris40">ARTÍCULOS RECOMENDADOS</p>
 
 						<div class="row">
-							<div class="col-md-3 col-sm-4" style="padding-right: 0;">
+							<div class="col-lg-4 col-sm-4 col-lg-nop">
 								<div class="art-item">
 									<img src="images/articulo-llavero.png" alt="llavero promocional">
 									<p class="t-white">LLAVERO PROMOCIONAL</p>
@@ -82,7 +82,7 @@
 								</div>
 							</div>
 
-							<div class="col-md-3 col-sm-4" style="padding-right: 0;">
+							<div class="col-lg-4 col-sm-4 col-lg-nop">
 								<div class="art-item">
 									<img src="images/articulo-gafete.png" alt="gafete del evento">
 									<p class="t-white">GAFETE DEL EVENTO</p>
@@ -91,7 +91,7 @@
 								</div>
 							</div>
 
-							<div class="col-md-3 col-sm-4" style="padding-right: 0;">
+							<div class="col-lg-4 col-sm-4 col-lg-nop">
 								<div class="art-item">
 									<img src="images/articulo-diploma.png" alt="dimploma del evento">
 									<p class="t-white">DIPLOMA DEL EVENTO</p>

@@ -124,7 +124,8 @@ a:hover{
 }
 
 .art-item img{
-	width: 1000%;
+	max-width: 100%;
+	width: 100%;
 }
 
 button{cursor: pointer;}
@@ -133,6 +134,11 @@ button{cursor: pointer;}
 	background-color: #fff;
 	padding: 15px;
 	border-radius: 4px;
+	margin-bottom: 1rem;
+}
+
+.articulos{
+	height: 120px;
 }
 
 .carrito-2{

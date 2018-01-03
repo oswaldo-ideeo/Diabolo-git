@@ -21,7 +21,7 @@
 			<div class="row nav-cuartada" >
 					<button class="mas-menu show-xs"><span class="fa fa-bars t-diabolo" id="bars-menu"></span></button>
 					<div class="col-20">
-						<a href="" class="foot-gris">CONFIGURAR</a>
+						<a href="configuracion.php" class="foot-gris">CONFIGURAR</a>
 					</div>
 
 					<div class="col-20">

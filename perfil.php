@@ -1,4 +1,4 @@
-<?php $page = 'DIABOLO'; ?>
+*<?php $page = 'DIABOLO'; ?>
 <?php $desc = 'Aqui va la descripccion de la pagina'; ?>
 
 <!DOCTYPE html>

@@ -54,6 +54,8 @@
 					</div>
 				</div>
 				<div class="row">
+
+					<!--articculo promocional-->
 					<div class="col-md-6">
 						<div class="articulo-card">
 							<div class="row justify-content-end favorito">
@@ -67,11 +69,11 @@
 								<div class="col-md-8">
 									<h6 class="articulo-name">Diploma de evento</h6>
 
-									<p class="articulo-desc">Impresión a fullcolor, personalizado totalmente con los datos del evento seleccionado..</p>
+									<p class="articulo-desc">Impresión a fullcolor, personalizado totalmente con los datos del evento seleccionado.</p>
 								</div>
 
 								<div class="col-md-4">
-									<img src="images/articulo-diploma.png" alt="">
+									<img src="images/articulo-diploma.png" alt="" class="articulos">
 								</div>
 							</div>
 
@@ -83,7 +85,10 @@
 							</div>
 						</div>
 					</div>
+					
+					<!--articculo promocional fin-->
 
+					<!--articculo promocional-->
 
 					<div class="col-md-6">
 						<div class="articulo-card">
@@ -96,29 +101,160 @@
 
 							<div class="row">
 								<div class="col-md-8">
-									<h6 class="articulo-name">Diploma de evento</h6>
+									<h6 class="articulo-name">Llavero promocional.</h6>
 
-									<p class="articulo-desc">Impresión a fullcolor, personalizado totalmente con los datos del evento seleccionado..</p>
+									<p class="articulo-desc">Llavero metálico con recubrimiento de piel personalizado.</p>
 								</div>
 
 								<div class="col-md-4">
-									<img src="images/articulo-diploma.png" alt="">
+									<img src="images/articulo-llavero.png" alt="" class="articulos">
 								</div>
 							</div>
 
 							<div class="row">
 								<div class="col-12" style="margin-top: 15px;">
 									<button type="button" class="t-diabolo carrito-2"><span class="fa fa-shopping-cart"></span>Agregar al carrito</button>
-									<button class="precio" disabled="true">$200</button>
+									<button class="precio" disabled="true">$125</button>
 								</div>
 							</div>
 						</div>
 					</div>
 
+					<!--articculo promocional fin-->
 
+					<!--articculo promocional-->
 					<div class="col-md-6">
+						<div class="articulo-card">
+							<div class="row justify-content-end favorito">
+								<div class="col-6 t-right">
+									<span class="fa fa-star star-in" id="star"></span>
+									<span class="fa fa-heart hearth-in" id="hearth"></span>
+								</div>
+							</div>
 
+							<div class="row">
+								<div class="col-md-8">
+									<h6 class="articulo-name">Gafete del evento.</h6>
+
+									<p class="articulo-desc">Gafete de acreditación y acceso del evento. Impreso a fullcolor. Incluye portagafete.</p>
+								</div>
+
+								<div class="col-md-4">
+									<img src="images/articulo-gafete.png" alt="" class="articulos">
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-12" style="margin-top: 15px;">
+									<button type="button" class="t-diabolo carrito-2"><span class="fa fa-shopping-cart"></span>Agregar al carrito</button>
+									<button class="precio" disabled="true">$175</button>
+								</div>
+							</div>
+						</div>
 					</div>
+					
+					<!--articculo promocional fin-->
+
+
+					<!--articculo promocional-->
+					<div class="col-md-6">
+						<div class="articulo-card">
+							<div class="row justify-content-end favorito">
+								<div class="col-6 t-right">
+									<span class="fa fa-star star-in" id="star"></span>
+									<span class="fa fa-heart hearth-in" id="hearth"></span>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-8">
+									<h6 class="articulo-name">Brazalete personalizado.</h6>
+
+									<p class="articulo-desc">Brazalete de estadía. Personalizado con el evento que se elija.</p>
+								</div>
+
+								<div class="col-md-4">
+									<img src="images/articulo-brazalete.png" alt="" class="articulos">
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-12" style="margin-top: 15px;">
+									<button type="button" class="t-diabolo carrito-2"><span class="fa fa-shopping-cart"></span>Agregar al carrito</button>
+									<button class="precio" disabled="true">$50</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!--articculo promocional fin-->
+
+					<!--articculo promocional-->
+					<div class="col-md-6">
+						<div class="articulo-card">
+							<div class="row justify-content-end favorito">
+								<div class="col-6 t-right">
+									<span class="fa fa-star star-in" id="star"></span>
+									<span class="fa fa-heart hearth-in" id="hearth"></span>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-8">
+									<h6 class="articulo-name">Taza.</h6>
+
+									<p class="articulo-desc">Taza totalmente personalizable. El color se ajusta a la identidad del evento.</p>
+								</div>
+
+								<div class="col-md-4">
+									<img src="images/articulo-taza.png" alt="" class="articulos">
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-12" style="margin-top: 15px;">
+									<button type="button" class="t-diabolo carrito-2"><span class="fa fa-shopping-cart"></span>Agregar al carrito</button>
+									<button class="precio" disabled="true">$225</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!--articculo promocional fin-->
+
+					<!--articculo promocional-->
+					<div class="col-md-6">
+						<div class="articulo-card">
+							<div class="row justify-content-end favorito">
+								<div class="col-6 t-right">
+									<span class="fa fa-star star-in" id="star"></span>
+									<span class="fa fa-heart hearth-in" id="hearth"></span>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-8">
+									<h6 class="articulo-name">Bolígrafos.</h6>
+
+									<p class="articulo-desc">Bolígrafo premium personalizado.</p>
+								</div>
+
+								<div class="col-md-4">
+									<img src="images/articulo-pluma.png" alt="" class="articulos">
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-12" style="margin-top: 15px;">
+									<button type="button" class="t-diabolo carrito-2"><span class="fa fa-shopping-cart"></span>Agregar al carrito</button>
+									<button class="precio" disabled="true">$50</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!--articculo promocional fin-->
+					
 				</div>
 
 				<div class="row justify-content-end">

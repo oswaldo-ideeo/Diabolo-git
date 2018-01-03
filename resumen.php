@@ -104,7 +104,7 @@
 			<div  class="col-md-4 row exp-total">
 				<div class="col-md-4"><p>Total: $750</p>
 				</div>
-				<div><input class="boton" type="submit" value="SIGUIENTE"></div>
+				<div><input class="boton" type="button" onclick="window.location.href='envio.php'" value="SIGUIENTE"></div>
 			</div>
 
 			

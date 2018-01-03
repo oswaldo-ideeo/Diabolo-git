@@ -105,7 +105,7 @@
 						<div class="col-md-12">	</div>
 					</div>
 					<div class="envio-boton">
-						<input class="boton" type="submit" value="SIGUIENTE">
+						<input class="boton" type="button" value="SIGUIENTE" onclick="window.location.href='pago.php'">
 					</div>
 				</form>
 			</div>
