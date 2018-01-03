@@ -40,72 +40,68 @@
 						<a href="pago.php" class="foot-gris">PAGO</a>
 					</div> 
 			</div>
-			<div class="row col-md-12 experiencia-menu ">
-				<div class="col-md-3">
-					<p>PRODUCTO</p>
-				</div>
-				<div class="col-md-3">
-					<p>DESCRIPCIÓN</p>
-				</div>
-				<div class="col-md-2">
-					<p>PERZONALIZADO</p>
-				</div>
-				<div class="col-md-2">
-					<p>CANTIDAD</p>
-				</div>
-				<div class="col-md-1">
-					<p>MONTO</p>
-				</div>
-			</div><br>
+			
+			<form action="envio.php">
+			<div class="row">
+				<div class="col-12">
+					<table class="table-responsive-md table t-white">
+						<tr class="table-heads">
+							<th>PRODUCTO</th>
+							<th>DESCRIPCIÓN</th>
+							<th>PERZONALIZADO</th>
+							<th>CANTIDAD</th>
+							<th>MONTO</th>
+							<th></th>
+						</tr>
 
+						<tr>
+							<td><img src="images/diploma.jpg"></td>
+							<td><p>DIPLOMA DE EVENTO<br>REF. 2597/399</p></td>
+							<td><p>MARCELO DIAZ</p></td>
+							<td>
+								<span class="control-cantidad" id="menos" onclick="res_count('diploma')">-</span>
+								<input value="1" class="cantidad-input" id="diploma" type="text" >
+								<span class="control-cantidad" id="mas" onclick="inc_count('diploma')">+</span>
+							</td>
+							<td><p>$250</p></td>
+							<td><a href="#" class="t-white" id="cerrar-diploma">X</a></td>
+						</tr>
 
-			<div id="diploma" class="row col-md-12 experiencia-cont">
-				<div class="col-md-3">
-					<img src="images/diploma.jpg">
-				</div>
-				<div class="col-md-3">
-					<p>DIPLOMA DE EVENTO<br>REF. 2597/399</p>
-				</div>
-				<div class="col-md-2">
-					<p>MARCELO DIAZ</p>
-				</div>
-				<div class="col-md-2">
-					<input class="exp-numero" type="number">
-				</div>
-				<div class="col-md-1">
-					<p>$250</p>
-				</div>
-				<div class="col-md-1">
-					<a href="#" id="cerrar-diploma">X</a>
+						<tr>
+							<td><img src="images/tarjeta.jpg"></td>
+							<td><p>GAFETE DEL EVENTO<br>REF. 2597/399</p></td>
+							<td><p>MARCELO</p></td>
+							<td>
+								<span class="control-cantidad" id="menos" onclick="res_count('gafete')">-</span>
+								<input value="1" class="cantidad-input" id="gafete" type="text" >
+								<span class="control-cantidad" id="mas" onclick="inc_count('gafete')">+</span>
+							</td>
+							<td><p>$500</p></td>
+							<td><a href="#" class="t-white" id="cerrar-gafete">X</a></td>			
+						</tr>
+					</table>
 				</div>
 			</div>
 
 
-			<div id="gafete" class="row col-md-12 experiencia-cont" >
-				<div class="col-md-3">
-					<img src="images/tarjeta.jpg">
-				</div>
-				<div class="col-md-3">
-					<p>GAFETE DEL EVENTO<br>REF. 2597/399</p>
-				</div>
-				<div class="col-md-2">
-					<p>MARCELO</p>
-				</div>
-				<div class="col-md-2">
-					<input class="exp-numero" type="number">
-				</div>
-				<div class="col-md-1">
-					<p>$500</p>
-				</div>
-				<div class="col-md-1">
-					<a href="#" id="cerrar-gafete">X</a>
+
+
+
+
+			
+			<div class="row justify-content-end">
+				<div class="col-sm-4 t-right">
+					<div class="separador"></div>
+					<span class="t-white" style="margin-right: 1rem;">
+						Total: <span class="total">$750</span>
+					</span>
+					
+					<button type="submit" class="boton-d b-diabolo t-white">SIGUIENTE</button>
+					<div class="separador"></div>
 				</div>
 			</div>
-			<div  class="col-md-4 row exp-total">
-				<div class="col-md-4"><p>Total: $750</p>
-				</div>
-				<div><input class="boton" type="button" onclick="window.location.href='envio.php'" value="SIGUIENTE"></div>
-			</div>
+
+		</form>
 
 			
 		</div>
@@ -128,6 +124,10 @@
 	</div>
 
 
+ 
+
+
+
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
@@ -147,7 +147,22 @@
 	})
 </script>
 
+<script>
+function inc_count(id)
+{
+    res = document.getElementById(id);
+    res.value = parseInt(res.value)+1;
+}
 
+function res_count(id){
+	res = document.getElementById(id);
+	if (parseInt(res.value) > 0) {
+		res.value = parseInt(res.value)-1;
+	}
+	
+	
+}
+</script>
 
 </body>
 </html>

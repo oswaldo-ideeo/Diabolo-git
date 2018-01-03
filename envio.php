@@ -38,11 +38,15 @@
 						<a href="pago.php" class="foot-gris">PAGO</a>
 					</div> 
 			</div>
-			<div class="envio">
-				<div class="tit-envio">
-					<p>INFORMACIÓN DE ENVÍO</p>
+			<div class="envio container">
+				<div class="tit-envio row">
+					<div class="col-12">
+						<p>INFORMACIÓN DE ENVÍO</p>
+					</div>
 				</div>
-				<form action="" class="col-md-12 row formulario-envio">
+
+				<form action="pago.php">
+				<div class="row formulario-envio">
 					<div class="col-md-6 row">
 						<div class="col-md-12">
 							<p>NOMBRE</p>
@@ -104,10 +108,19 @@
 						<div class="col-md-12">	</div>
 						<div class="col-md-12">	</div>
 					</div>
-					<div class="envio-boton">
-						<input class="boton" type="button" value="SIGUIENTE" onclick="window.location.href='pago.php'">
-					</div>
-				</form>
+					
+				</div>
+
+				<div class="row justify-content-end">
+				<div class="col-sm-4 t-right">
+					<div class="separador"></div>
+					
+					<button type="submit" class="boton-d b-diabolo t-white">SIGUIENTE</button>
+					<div class="separador"></div>
+				</div>
+			</div>
+
+			</form>
 			</div>
 
 		<?php include 'includes/footer.php'; ?>
